@@ -4,7 +4,6 @@ import React from 'react';
 
 import Header from './header/header';
 import Footer from './footer/footer';
-import Cowsay from './cowsay/cowsay';
 
 import '../style/app.scss';
 
@@ -15,7 +14,7 @@ class App extends React.Component {
       <React.Fragment>
         <Header title="Generate Cowsay Lorem" />
         <main>
-          <Cowsay />
+          <p>I am a cow</p>
         </main>
         <Footer />
       </React.Fragment>
