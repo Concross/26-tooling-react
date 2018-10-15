@@ -48,4 +48,4 @@ webpackConfig.module.rules = [{
       cacheDirectory: true,
     },
   },
-}];
+},];

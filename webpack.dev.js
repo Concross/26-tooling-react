@@ -23,17 +23,17 @@ webpackDevConfig.plugins = [
 webpackDevConfig.module.rules = [{
   test: /\.scss$/,
   use: [{
-    loader: 'style-loader',
+    loader: "style-loader",
   },
   {
-    loader: 'css-loader',
+    loader: "css-loader",
     options: {
       sourceMap: true,
     },
   },
   {
-    loader: 'sass-loader',
-    option: {
+    loader: "sass-loader",
+    options: {
       sourceMap: true,
     },
   }],
