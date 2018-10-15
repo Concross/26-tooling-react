@@ -1,0 +1,19 @@
+{
+  "name": "26-tooling-react",
+  "version": "1.0.0",
+  "description": "React lab",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Concross/26-tooling-react.git"
+  },
+  "author": "Connor Crossley <cacrossley22@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Concross/26-tooling-react/issues"
+  },
+  "homepage": "https://github.com/Concross/26-tooling-react#readme"
+}
