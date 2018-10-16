@@ -5,6 +5,7 @@ import React from 'react';
 import Header from './header/header';
 import Footer from './footer/footer';
 import { say } from 'cowsay';
+import Faker from 'faker';
 
 import '../style/app.scss';
 
@@ -21,7 +22,7 @@ class App extends React.Component {
 
   updateState() {
     let message = say({
-      text: `I'm a cow, MOOO!`,
+      text: Faker.fake('{{lorem.paragraph}}'),
     });
 
     this.setState({ message });
@@ -31,8 +32,8 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Header title="Generate Cowsay Lorem" />
-        <main>
-          <button onClick={this.updateState}>Moo</button>
+        <main id="cowsay-container">
+          <button onClick={this.updateState}>Moo?</button>
           <pre>{this.state.message}</pre>
         </main>
         <Footer />
