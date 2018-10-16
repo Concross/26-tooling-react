@@ -14,18 +14,21 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      message: `moo`,
+      content: `moo`,
+      buttonText: `Moo?`,
     };
 
     this.updateState = this.updateState.bind(this);
   }
 
   updateState() {
-    let message = say({
+    let content = say({
       text: Faker.fake('{{lorem.paragraph}}'),
     });
 
-    this.setState({ message });
+    let buttonText = `MOOO!`;
+
+    this.setState({ content, buttonText });
   }
 
   render() {
@@ -33,8 +36,8 @@ class App extends React.Component {
       <React.Fragment>
         <Header title="Generate Cowsay Lorem" />
         <main id="cowsay-container">
-          <button onClick={this.updateState}>Moo?</button>
-          <pre>{this.state.message}</pre>
+          <button onClick={this.updateState}>{this.state.buttonText}</button>
+          <pre>{this.state.content}</pre>
         </main>
         <Footer />
       </React.Fragment>
