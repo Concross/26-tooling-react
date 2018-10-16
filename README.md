@@ -1,18 +1,5 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 26 - Frontend Tooling & React
+Frontend Tooling & React
 ===
-
-## Submission Instructions
-* Follow the instructions in the "Lab Instructions" documentation in the reference folder of the class repository 
-  
-## Learning Objectives  
-* Students will be able to configure webpack to compile JS and SASS into a bundle
-* Students will be able to configure babel to transpile JSX and ES6 to ES5 javascript
-* Students will be able to create and render react components to the DOM
-* Students will be able to add event listeners to react components 
-* Students will be able to update react component state
-
-#### Feature Tasks  
-Create the following component
 
 ###### App
 * Should contain the entire application's view and state
